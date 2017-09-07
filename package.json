@@ -1,0 +1,23 @@
+{
+  "name": "tower_bar_redesign",
+  "version": "1.0.0",
+  "description": "Redesign for tower bar website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaugeri/TowerBarRedesign.git"
+  },
+  "author": "Alex Maugeri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaugeri/TowerBarRedesign/issues"
+  },
+  "homepage": "https://github.com/amaugeri/TowerBarRedesign#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  }
+}
