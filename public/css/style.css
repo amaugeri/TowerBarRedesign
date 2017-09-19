@@ -1,0 +1,132 @@
+
+
+#socialmediabar{
+	height: 50px;
+	background-color: black;
+	width: 1700px;
+    margin-left: 102px;
+   
+    border-style: solid;
+    border-width: 2px;
+}
+#brandingdiv{
+ display:flex;
+ justify-content:space-around;
+ line-height: 5px;
+ background-color: black;
+ height: 115px;
+ width: 1700px;
+ margin-left: 102px;
+ 
+
+}
+
+#address{ 
+	text-align:center;
+
+	padding-top: 35px; 
+	min-width: 220px;
+    width: 300px;
+    margin-left: 80px;
+    font-size: 120%;
+	font-family: 'Arimo', sans-serif;
+	color: white;
+
+}
+#title{ text-align:center;
+
+	font-size: 400%;
+	font-family: 'Suranna', serif;
+	padding-top: 55px;
+	margin-left: 270px;
+	margin-right: 270px; 
+	min-width: 300px;
+	width: 900px;
+	color: white;
+
+ }
+#happyhour{ text-align:center;
+
+		padding-top: 35px; 
+		font-size: 120%;
+		font-family: 'Arimo', sans-serif;
+		min-width: 220px;
+		width: 300px;
+		margin-right: 60px;
+		color: white;
+
+ }
+ 
+ #navbardiv{
+ display:flex;
+
+ line-height: 5px;
+ background-color: white;
+ height: 57px;
+ text-align: center
+
+}
+
+.navbutton{ 
+
+		text-align:center;
+		
+		padding-top: 25px; 
+		font-size: 160%;
+		font-family: 'Sahitya', serif;
+		min-width: 220px;
+		width: 243px;
+		color: white;
+    	background-color: maroon;
+    	display: inline-block
+
+    	
+		
+ }
+
+
+ #home{
+ 
+		margin-left: 102px;
+
+    
+
+    
+    
+ }
+
+ #eventcalendar{
+
+
+
+ }
+  #gallery{
+
+ 	
+ }
+  #ourhistory{
+  
+
+ 	
+ }
+  #towerrecords{
+  
+ 	
+ }
+  #merch{
+  
+ 	
+ }
+  #contact{
+	
+  }
+ 
+ .bodydiv{
+ 	height: 2000px;
+ 	width: 1700px;
+ 	margin-left: 102;
+ 	border-style: inset;
+    border-width: 1px;
+ 	text-align: center;
+ 	background-color: black;
+ }
