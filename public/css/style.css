@@ -1,13 +1,16 @@
 
 
+/* header style */
+
+
 #socialmediabar{
 	height: 50px;
 	background-color: black;
 	width: 1700px;
     margin-left: 102px;
-   
-    border-style: solid;
-    border-width: 2px;
+   	border-right: 1px solid white;
+   	border-left: 1px solid white;
+    
 }
 #brandingdiv{
  display:flex;
@@ -17,6 +20,9 @@
  height: 115px;
  width: 1700px;
  margin-left: 102px;
+ border-color: white;
+    border-style: solid;
+    border-width: 1px;
  
 
 }
@@ -52,16 +58,18 @@
 		font-family: 'Arimo', sans-serif;
 		min-width: 220px;
 		width: 300px;
-		margin-right: 60px;
+		margin-right: 50px;
 		color: white;
 
  }
  
+
+ /* Navbar style */
  #navbardiv{
  display:flex;
 
  line-height: 5px;
- background-color: white;
+
  height: 57px;
  text-align: center
 
@@ -88,6 +96,7 @@
  #home{
  
 		margin-left: 102px;
+		border-right: 1px solid black;
 
     
 
@@ -97,36 +106,60 @@
 
  #eventcalendar{
 
-
+ 	border-right: 1px solid black;
 
  }
   #gallery{
 
- 	
+ 	border-right: 1px solid black;
  }
   #ourhistory{
   
-
+  	border-right: 1px solid black;
  	
  }
   #towerrecords{
   
- 	
+ 	border-right: 1px solid black;	
  }
   #merch{
   
- 	
+ 	border-right: 1px solid black;	
  }
   #contact{
 	
   }
  
+ 
+/* body style */
  .bodydiv{
  	height: 2000px;
  	width: 1700px;
  	margin-left: 102;
- 	border-style: inset;
+ 	border-color: white;
+    border-style: solid;
     border-width: 1px;
  	text-align: center;
  	background-color: black;
+ 	display:flex;
+ 	
+ }
+ .picturediv{
+ 	
+ }
+ #maineventpic{
+ 	width: 750px;
+ 	margin-left: 250px;
+ 	margin-top: 60px;
+ 	height: 400px;
+ 	background-color: white;
+ 	margin-right: 75px;
+
+ }
+ #maineventinfo{
+ 	height: 250px;
+	margin-top: 130px;
+ 	background-color: red;
+ 	width: 500px;
+
  }
