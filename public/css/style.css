@@ -144,22 +144,80 @@
  	display:flex;
  	
  }
+ 
+#maineventdiv{
+
+	
+	 vertical-align:middle;
+
+    display:table-cell;
+	height: 600;
+	width: 1700px;
+
+
+
+}
  .picturediv{
  	
  }
- #maineventpic{
- 	width: 750px;
- 	margin-left: 250px;
- 	margin-top: 60px;
- 	height: 400px;
- 	background-color: white;
- 	margin-right: 75px;
+ #maineventpicdiv{
+ 	width: 500px;
+ 	margin-left: 20px;
+ 	margin-top: 105px;
+ 	
+ 	 display: inline-block;
+    vertical-align: middle;
+ 	margin-right: 15px;
+ 	 position: relative;
 
  }
  #maineventinfo{
- 	height: 250px;
-	margin-top: 130px;
- 	background-color: red;
- 	width: 500px;
+ 	height: 450px;
+ 	margin-top: 105px;
+ 	
+ 	width: 800px;
+ 	 display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    text-align: left;
+    color: white;
+    
 
  }
+
+ #maineventpic {
+    
+ 	max-width: 340px;
+ 	max-height: auto;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 3px solid #42dcf4;
+    border-radius: 4px;
+    
+}
+#maineventpic:hover {
+    box-shadow: 0 0 2px 1px rgb(255, 242, 0);
+}
+#bodytext{
+	font-family: 'Arimo', sans-serif;
+	line-height: 15px;
+	font-size: 23px;
+}
+#headertext{
+
+	font-family: 'Sahitya', serif;
+	font-size: 50px;
+	line-height: 60px;
+	padding-bottom: 40px;
+
+}
+#tix{
+	padding-top: 10px;
+	font-size: 15px;
+		font-family: 'Arimo', sans-serif;
+
+}
