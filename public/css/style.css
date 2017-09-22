@@ -4,12 +4,15 @@
 
 
 #socialmediabar{
-	height: 50px;
+	height: 40px;
 	background-color: black;
-	width: 1700px;
-    margin-left: 102px;
+	width: 1900px;
+    
    	border-right: 1px solid white;
    	border-left: 1px solid white;
+   	text-align: right;
+   	padding-right: 105px;
+   	padding-top: 6px;
     
 }
 #brandingdiv{
@@ -17,9 +20,9 @@
  justify-content:space-around;
  line-height: 5px;
  background-color: black;
- height: 115px;
- width: 1700px;
- margin-left: 102px;
+ height: 150px;
+ width: 1900px;
+
  border-color: white;
     border-style: solid;
     border-width: 1px;
@@ -28,38 +31,48 @@
 }
 
 #address{ 
-	text-align:center;
-
-	padding-top: 35px; 
+	text-align:left;
+	
+	
 	min-width: 220px;
-    width: 300px;
-    margin-left: 80px;
-    font-size: 120%;
+    width: 980px;
+    margin-left: 95px;
+    font-size: 110%;
 	font-family: 'Arimo', sans-serif;
-	color: white;
+	color: #e5e6e8;
+	padding-left: 5px;
+	height: 135px;
+	line-height: 260px;
 
 }
-#title{ text-align:center;
-
+#title{ 
+	text-align:center;
 	font-size: 400%;
 	font-family: 'Suranna', serif;
-	padding-top: 55px;
-	margin-left: 270px;
-	margin-right: 270px; 
+	padding-top: 18px;
+	margin-left: 22px;
+	margin-right: 22px; 
 	min-width: 300px;
 	width: 900px;
 	color: white;
+	
+	height: 137px;
+	
 
  }
-#happyhour{ text-align:center;
-
+#happyhour{ 
+		
+		text-align:right;
 		padding-top: 35px; 
-		font-size: 120%;
+		font-size: 110%;
 		font-family: 'Arimo', sans-serif;
 		min-width: 220px;
-		width: 300px;
-		margin-right: 50px;
-		color: white;
+		width: 980px;
+		margin-right: 105px;
+		color: #e5e6e8;
+		
+		height: 135px;
+		line-height: 190px;
 
  }
  
@@ -67,7 +80,7 @@
  /* Navbar style */
  #navbardiv{
  display:flex;
-
+background-color: maroon;
  line-height: 5px;
 
  height: 57px;
@@ -97,6 +110,7 @@
  
 		margin-left: 102px;
 		border-right: 1px solid black;
+		border-left: 1px solid black;
 
     
 
@@ -127,21 +141,21 @@
  	border-right: 1px solid black;	
  }
   #contact{
-	
+	 	border-right: 1px solid black;	
+
   }
  
  
 /* body style */
  .bodydiv{
  	height: 2000px;
- 	width: 1700px;
- 	margin-left: 102;
- 	border-color: white;
-    border-style: solid;
-    border-width: 1px;
- 	text-align: center;
+ 	width: 1890px;
+ 	
+ 	padding-top: 30px;
+ 	
+ 	
  	background-color: black;
- 	display:flex;
+
  	
  }
  
@@ -149,10 +163,14 @@
 
 	
 	 vertical-align:middle;
-
-    display:table-cell;
-	height: 600;
-	width: 1700px;
+	 border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #161616;
+	height: 520;
+	width: 1220px;
+	margin-top: 5px;
+	margin-left: 340px;
 
 
 
@@ -162,8 +180,8 @@
  }
  #maineventpicdiv{
  	width: 500px;
- 	margin-left: 20px;
- 	margin-top: 105px;
+ 	
+ 	margin-top: 20px;
  	
  	 display: inline-block;
     vertical-align: middle;
@@ -173,9 +191,8 @@
  }
  #maineventinfo{
  	height: 450px;
- 	margin-top: 105px;
- 	
- 	width: 800px;
+ 	margin-top: 50px;
+ 	width: 650px;
  	 display: inline-block;
     vertical-align: middle;
     position: relative;
@@ -187,7 +204,7 @@
 
  #maineventpic {
     
- 	max-width: 340px;
+ 	max-width: 310px;
  	max-height: auto;
     position: absolute;
     margin: auto;
@@ -205,7 +222,7 @@
 #bodytext{
 	font-family: 'Arimo', sans-serif;
 	line-height: 15px;
-	font-size: 23px;
+	font-size: 28px;
 }
 #headertext{
 
@@ -216,8 +233,61 @@
 
 }
 #tix{
-	padding-top: 10px;
-	font-size: 15px;
-		font-family: 'Arimo', sans-serif;
+	padding-top: 40px;
+	font-size: 19px;
+	font-family: 'Arimo', sans-serif;
 
+}
+
+.events_first_row{
+
+	 
+	
+	
+	width: 1700px;
+	margin-top: 30px;
+	margin-left: 80px;
+	
+	
+
+}
+.first_event{
+	
+}
+#sub_events{
+	
+
+ 	
+ 	width: 350px;
+ 	height: 550px;
+ 	text-align: center;
+ 	padding-top: 10px;
+ background-color: #161616;
+ 	display: inline-block;
+    margin-left: 55px;
+ 	margin-right: 10px;
+ 	 position: relative;
+ 	 border-color: white;
+    border-style: solid;
+    border-width: 1px;
+     display: inline-block;
+    vertical-align: middle;
+    font-size: 15px;
+    color: white;
+    line-height: 10px;
+ 	
+ 	 position: relative;
+}
+#subheadertext{
+	line-height: 18px;
+}
+
+#subpic{
+
+	border: 3px solid #42dcf4;
+    border-radius: 4px;
+    
+}
+#subpic:hover {
+    box-shadow: 0 0 2px 1px rgb(255, 242, 0);
 }
